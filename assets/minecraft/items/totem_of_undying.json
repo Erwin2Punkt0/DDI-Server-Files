@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/totem_of_undying"
+        },
+        "cases": [
+            {
+                "when": "Erwin2Punkt0",
+                "model": {
+                    "type": "model",
+                    "model": "item/totem_of_undying_erwin2punkt0"
+                }
+            },
+            {
+                "when": "sodiesem",
+                "model": {
+                    "type": "model",
+                    "model": "item/totem_of_undying_sodiesem"
+                }
+            }
+        ]
+    }
+}
